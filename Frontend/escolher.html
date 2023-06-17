@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o número</title>
+    <link rel="stylesheet" href="escolher.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Escolha um número inteiro de 0 a 1000:</h1>
+    <form href="#" name="formulario" action="/insere-numero" method="post" id="formulario">
+        <div id="conteudo">
+            <input type="text" placeholder="Número" id="meu_input" name="meu_input">
+        </div>
+        
+        <div id="botao">
+            <button type="submit" id="escolher_numero" name="escolher_numero" onclick="reconhecer_numero()" value="Enviar">Enviar</button>
+        </div>
+    </form>
+
+    <h2 id="resultado"></h2>
+</body>
+</html>

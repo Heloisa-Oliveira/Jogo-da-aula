@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adivinhar.css">
+    <script src="script.js"></script>
+    <title>Adivinhe o número</title>
+</head>
+<body>
+    <h1>Digite aqui o ID necessário para acertar o número do coleguix</h1>
+
+    <form href="#" name="formulario" action="/adivinhar" method="get" id="formulario">
+        <div class="conteudo">
+            <input type="text" id="numero_id" placeholder="ID" name="numero_id">
+        </div>
+
+        <h1>Digite aqui a sua tentativa para acertar o número do coleguix</h1>
+        <div class="conteudo">
+            <input type="text" id="numero_tentado" placeholder="Tentativa" name="numero_tentado">
+        </div>
+
+        <div id="botao">
+            <button id="testar_numero" name="testar_numero">Enviar tentativa</button>
+        </div>
+    </form>
+
+    <h2 id="resposta"></h2>
+</body>
+</html>
